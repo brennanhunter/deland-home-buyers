@@ -46,7 +46,7 @@ const ContactForm = () => {
 
       {submitted ? (
         <div className="bg-green-100 text-green-800 font-medium text-center p-4 rounded-md shadow">
-          ✅ Thanks! We'll be in touch shortly.
+          ✅ Thanks! We&apos;ll be in touch shortly.
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -103,7 +103,7 @@ const ContactForm = () => {
               htmlFor="details"
               className="block text-sm font-medium text-gray-700 mb-1"
             >
-              Anything else you'd like us to know?
+              Anything else you&apos;d like us to know?
             </label>
             <textarea
               id="details"
