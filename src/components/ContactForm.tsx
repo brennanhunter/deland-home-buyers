@@ -58,7 +58,7 @@ const ContactForm = () => {
 
         <div>
           <label htmlFor="details" className="block text-sm font-medium text-gray-700 mb-1">
-            Anything else you'd like us to know?
+            Anything else you&apos;d like us to know?
           </label>
           <textarea
             id="details"
